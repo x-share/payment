@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment", "Payment\Payment.csproj", "{8FAA265C-F365-402B-BEAD-681B0F95B782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Fuiou", "Payment.Fuiou\Payment.Fuiou.csproj", "{5B3B2BC4-E472-4BCB-AAF7-A73AE76E7DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Unspay", "Payment.Unspay\Payment.Unspay.csproj", "{4E3EEA4E-4F7F-499D-8A18-98DD257D9AB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FAA265C-F365-402B-BEAD-681B0F95B782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAA265C-F365-402B-BEAD-681B0F95B782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAA265C-F365-402B-BEAD-681B0F95B782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAA265C-F365-402B-BEAD-681B0F95B782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3B2BC4-E472-4BCB-AAF7-A73AE76E7DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3B2BC4-E472-4BCB-AAF7-A73AE76E7DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3B2BC4-E472-4BCB-AAF7-A73AE76E7DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3B2BC4-E472-4BCB-AAF7-A73AE76E7DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3EEA4E-4F7F-499D-8A18-98DD257D9AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3EEA4E-4F7F-499D-8A18-98DD257D9AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3EEA4E-4F7F-499D-8A18-98DD257D9AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3EEA4E-4F7F-499D-8A18-98DD257D9AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
