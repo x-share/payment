@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Payment.Fuiou.Paremetors
 {
-    internal class FyXml
+    internal class FuiouXml
     {
 
         #region Inner class
@@ -33,10 +33,10 @@ namespace Payment.Fuiou.Paremetors
 
         #region  Construction
 
-        public FyXml(object xmlData) : this(string.Empty, xmlData) { }
-        public FyXml(string title) : this(title, null) { }
+        public FuiouXml(object xmlData) : this(string.Empty, xmlData) { }
+        public FuiouXml(string title) : this(title, null) { }
 
-        public FyXml(string title, object xmlData)
+        public FuiouXml(string title, object xmlData)
         {
             this._xmlTitle = title;
             this._xmlData = xmlData;

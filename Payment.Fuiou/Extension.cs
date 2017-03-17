@@ -20,12 +20,12 @@ namespace Payment.Fuiou.Fuyou
         /// </summary>
         /// <param name="amount"></param>
         /// <returns></returns>
-        public static decimal GetFyAmount(this int amount)
+        public static decimal GetFuiouAmount(this int amount)
         {
             return Helper.GetAmount(amount);
         }
 
-        public static decimal GetFyAmount(this long amount)
+        public static decimal GetFuiouAmount(this long amount)
         {
             return Helper.GetAmount(amount);
         }
@@ -35,7 +35,7 @@ namespace Payment.Fuiou.Fuyou
         /// </summary>
         /// <param name="amount"></param>
         /// <returns></returns>
-        public static int SetFyAmount(this decimal amount)
+        public static int SetFuiouAmount(this decimal amount)
         {
             return Helper.SetAmount(amount);
         }

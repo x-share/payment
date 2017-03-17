@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 namespace Payment.Fuiou.Response.Plain
 {
     [XmlRoot("plain")]
-    public class RWTransQueryPlain : FyBasePlain
+    public class RWTransQueryPlain : FuiouBasePlain
     {
         /// <summary>
         /// 业务类型

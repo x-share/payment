@@ -15,7 +15,7 @@ namespace Payment.Fuiou.Response.Plain
 {
      
     [XmlRoot("plain")]
-    public class TradingQueryPlain : FyBasePlain
+    public class TradingQueryPlain : FuiouBasePlain
     {
         /// <summary>
         /// 业务类型

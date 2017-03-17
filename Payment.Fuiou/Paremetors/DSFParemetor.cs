@@ -90,7 +90,7 @@ namespace Payment.Fuiou.Paremetors
         /// <returns></returns>
         public override IDictionary<string, string> GetFormatData()
         {
-            _xmlData = new FyXml(this).GetXml();
+            _xmlData = new FuiouXml(this).GetXml();
             return new SortedDictionary<string, string>() 
                     { 
                         {"merid"    ,MerchantCode},

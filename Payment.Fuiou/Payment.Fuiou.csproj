@@ -61,7 +61,7 @@
     <Compile Include="Paremetors\FreezeParemetor.cs" />
     <Compile Include="Paremetors\FuiouNormalResultParemetor.cs" />
     <Compile Include="Paremetors\FuiouParemetor.cs" />
-    <Compile Include="Paremetors\FyXml.cs" />
+    <Compile Include="Paremetors\FuiouXml.cs" />
     <Compile Include="Paremetors\Helper.cs" />
     <Compile Include="Paremetors\ModifyAccountParemetor.cs" />
     <Compile Include="Paremetors\PreAuthorizationParemetor.cs" />

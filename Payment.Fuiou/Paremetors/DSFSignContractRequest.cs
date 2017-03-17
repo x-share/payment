@@ -102,7 +102,7 @@ namespace Payment.Fuiou.Paremetors
         {
             get
             {
-                var xmlObj = new FyXml(this);
+                var xmlObj = new FuiouXml(this);
                 xmlObj.AppendNode("signature", SHA1(SHA1(getEncryptionData()) + "|" + base.ApiPrivateKey));
                 return xmlObj.GetXml();
             }

@@ -14,7 +14,7 @@ using System.Xml.Serialization;
 namespace Payment.Fuiou.Response.Plain
 {
     [XmlRoot("plain")]
-    public class QueryAccountBalancePlain : FyBasePlain
+    public class QueryAccountBalancePlain : FuiouBasePlain
     {
         /// <summary>
         /// 返回结果描述

@@ -13,7 +13,7 @@ using System.Xml.Serialization;
 namespace Payment.Fuiou.Response.Plain
 {
     [XmlRoot("plain")]
-    public class RechargePlain : FyBasePlain
+    public class RechargePlain : FuiouBasePlain
     {
         /// <summary>
         /// 返回结果描述

@@ -33,7 +33,7 @@ namespace Payment.Fuiou.Response
     /// 富友接口返回数据基本结构
     /// </summary>
     [XmlRoot("ap")]
-    public class FuiouBaseResult<TPlain> : AbsResult where TPlain : FyBasePlain
+    public class FuiouBaseResult<TPlain> : AbsResult where TPlain : FuiouBasePlain
     {
 
         const string sucess_code = "0000";
@@ -100,7 +100,7 @@ namespace Payment.Fuiou.Response
     /// 富友标准返回接口
     /// </summary>
     [XmlRoot("ap")]
-    public class FuiouStandardResult : FuiouBaseResult<FyBasePlain>
+    public class FuiouStandardResult : FuiouBaseResult<FuiouBasePlain>
     {
 
     }
@@ -226,7 +226,7 @@ namespace Payment.Fuiou.Response
     /// 富友标准返回接口
     /// </summary>
     [XmlRoot("ap")]
-    public class ChangeCardResult : FuiouBaseResult<FyBasePlain2>
+    public class ChangeCardResult : FuiouBaseResult<FuiouBasePlain2>
     {
         /// <summary>
         /// 返回码说明

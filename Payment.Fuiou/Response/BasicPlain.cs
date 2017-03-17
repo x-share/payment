@@ -38,7 +38,7 @@ namespace Payment.Fuiou.Response
     /// 富有返回基本数据
     /// </summary>
     [XmlRoot("plain")]
-    public class FyBasePlain
+    public class FuiouBasePlain
     {
         /// <summary>
         /// 返回码
@@ -63,7 +63,7 @@ namespace Payment.Fuiou.Response
     /// 富有返回基本数据
     /// </summary>
     [XmlRoot("plain")]
-    public class FyBasePlain2 : FyBasePlain
+    public class FuiouBasePlain2 : FuiouBasePlain
     {
         /// <summary>
         /// 返回码说明

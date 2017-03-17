@@ -54,7 +54,7 @@ namespace Payment.Fuiou.Paremetors
 
 
         [Paremetor("amt")]
-        internal string FYAmount
+        internal string FuiouAmount
         {
             get { return Convert.ToInt32(Amount * 100).ToString(); }
         }
@@ -93,7 +93,7 @@ namespace Payment.Fuiou.Paremetors
         {
             yield return VALIDATE.NOTNULLANDLIMITLENGTH(this.OutAccountNo, 60, "付款登录账户");
             yield return VALIDATE.NOTNULLANDLIMITLENGTH(this.InAccountNo, 60, "收款登录账户");
-            yield return VALIDATE.NOTNULLANDLIMITLENGTH(this.FYAmount, 12, "转账金额");
+            yield return VALIDATE.NOTNULLANDLIMITLENGTH(this.FuiouAmount, 12, "转账金额");
             yield return VALIDATE.CANNULLANDLIMITLENGTH(this.Remark, 100, "备注");
         }
     }

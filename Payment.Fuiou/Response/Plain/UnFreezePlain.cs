@@ -14,7 +14,7 @@ using System.Xml.Serialization;
 namespace Payment.Fuiou.Response.Plain
 {
     [XmlRoot("plain")]
-    public class UnFreezePlain : FyBasePlain
+    public class UnFreezePlain : FuiouBasePlain
     {
         /// <summary>
         /// 请求解冻金额

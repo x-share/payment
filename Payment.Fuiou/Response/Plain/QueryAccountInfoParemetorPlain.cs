@@ -14,7 +14,7 @@ using System.Xml.Serialization;
 namespace Payment.Fuiou.Response.Plain
 {
     [XmlRoot("plain")]
-    public class QueryAccountInfoParemetorPlain : FyBasePlain
+    public class QueryAccountInfoParemetorPlain : FuiouBasePlain
     {
         [XmlElement("results")]
         public QueryAccountInfoParemetorPlainResults QueryResult { get; set; }

@@ -14,7 +14,7 @@ using System.Xml.Serialization;
 namespace Payment.Fuiou.Response.Plain
 {
     [XmlRoot("plain")]
-    public class PreAuthorizationPlain : FyBasePlain
+    public class PreAuthorizationPlain : FuiouBasePlain
     {
         /// <summary>
         /// 预授权合同号
