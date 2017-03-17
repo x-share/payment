@@ -55,7 +55,7 @@
     <Compile Include="Configuration\PMSConfiguration.cs" />
     <Compile Include="Exception\DisableApiException.cs" />
     <Compile Include="Exception\VerifyException.cs" />
-    <Compile Include="FyParemetor.cs" />
+    <Compile Include="BaseParemetor.cs" />
     <Compile Include="Exception\NetException.cs" />
     <Compile Include="Http\HttpHelper.cs" />
     <Compile Include="Http\HttpProcesser.cs" />
