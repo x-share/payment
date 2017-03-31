@@ -1,7 +1,7 @@
 # .NET 三方支付
 
 ## 简介
-> __用.NET提供的三方支付，`Payment`提供了基础支付能力，因项目的需要在`Payment`的基础富友（`Payment.Fuiou`）和银生宝(`Payment.Unspay`)的支持，当然用户也可在Payment的基础上扩展其它支付渠道;__
+> __用.NET提供的三方支付，`Payment`提供了基础支付能力，因项目的需要在`Payment`的基础上，扩展对富友（`Payment.Fuiou`）和银生宝(`Payment.Unspay`)的支持，当然用户也可在Payment的基础上扩展其它支付渠道;__
 
 ## 说说支付
 > __不知道做过支付的同学是不是和我的感觉一样，我认为涉及到支付的方面如下：__
